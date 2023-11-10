@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+canvas {
+  border: 1px solid #000;
+  background: #f1f1f1;
+}
+</style>
+
+</head>
+<body>
+
+
+<div>
+
+<!--
+
+<button onclick="moveup()">
+  UP
+</button>
+<button onclick="movedown()">
+  DOWN
+</button>
+<button onclick="moveleft()">
+  LEFT
+</button>
+<button onclick="moveright()">
+  RIGHT
+</button>
+-->
+
+<button onmousedown="moveup()" onmouseup="stopMove()" ontouchstart="moveup()">UP</button>
+<button onmousedown="movedown()" onmouseup="stopMove()" ontouchstart="movedown()">DOWN</button>
+<button onmousedown="moveleft()" onmouseup="stopMove()" ontouchstart="moveleft()">LEFT</button>
+<button onmousedown="moveright()" onmouseup="stopMove()" ontouchstart="moveright()">RIGHT</button>
+
+
+</div>
+<script src="main.js"></script>
+</body>
+
+</html>
